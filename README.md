@@ -1,6 +1,7 @@
 # CONLL-U to Pandas DataFrame
 
 Turn [CONLL-U documents](http://universaldependencies.org/format.html) into [Pandas DataFrames](http://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html) for easy NLP!
+Updated: accept encoding in function conll_df
 
 ## Install
 
