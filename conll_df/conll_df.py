@@ -118,7 +118,8 @@ def conll_df(path,
         
     splitter = ' = ' if v2 else '='
 
-    with open(path, 'r') as fo:
+    encoding=kwargs.get('encoding')
+    with open(path, 'r', encoding=encoding) as fo:
         data = fo.read().strip('\n')
 
     if v2 == 'auto':
